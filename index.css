@@ -1,0 +1,537 @@
+.background-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about,
+.home {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.home {
+  width: 83px;
+  min-width: 83px;
+}
+.about {
+  align-self: stretch;
+  min-width: 98px;
+}
+.about-wrapper {
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+}
+.admin-login,
+.contact {
+  position: relative;
+  z-index: 1;
+}
+.contact {
+  width: 135px;
+  display: inline-block;
+}
+.admin-login {
+  flex: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.frame-parent,
+.home-parent {
+  width: 544px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.home-parent {
+  width: 738px;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.apply-for-automatic,
+.govt-smart-street-light {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+  z-index: 2;
+}
+.apply-for-automatic {
+  width: 533px;
+  right: -389px;
+  bottom: 92px;
+  font-weight: 500;
+}
+.govt-smart-street-light {
+  width: 1036px;
+  top: 60px;
+  right: -42px;
+  font-size: 32px;
+  font-family: var(--font-jacques-francois);
+  color: #757171;
+}
+.prajwalit-bharat {
+  width: 1009px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.gradient-background {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: #cfd0cb;
+  font-family: var(--font-krona-one);
+}
+.illuminate-together-brighteni {
+  width: 910px;
+  height: 319px;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.government-info,
+.gradient-background-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gradient-background-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 181px;
+  font-size: 64px;
+  color: #efe6e6;
+}
+.government-info {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.connect-with-us {
+  width: 188px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.connect-with-us-wrapper {
+  width: 1252px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-ligconsolata);
+}
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    89.88deg,
+    rgba(8, 8, 8, 0.46) 51.1%,
+    rgba(102, 102, 102, 0)
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.image-1-icon,
+.image-2-icon,
+.image-3-icon {
+  position: absolute;
+  top: 939px;
+  left: 977px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 2;
+}
+.image-2-icon,
+.image-3-icon {
+  left: 1043px;
+  width: 51px;
+  height: 51px;
+}
+.image-3-icon {
+  top: 935px;
+  left: 1110px;
+  width: 58px;
+  height: 58px;
+}
+.gradient-parent {
+  width: 1419px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.government-info-parent,
+.locality-box {
+  position: relative;
+  box-sizing: border-box;
+}
+.government-info-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 3px 0 16px var(--padding-20xl);
+  gap: 388px;
+  max-width: calc(100% - 267px);
+}
+.locality-box {
+  height: 48px;
+  width: 288.4px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-gray-200);
+  display: none;
+}
+.localityarea {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: #171515;
+  text-align: center;
+  z-index: 2;
+}
+.locality-box-parent {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-xs) 20.100000000000023px;
+  background-color: var(--color-gainsboro-100);
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.locality-box-parent:hover,
+.street-number-box,
+.street-number-box-parent:hover {
+  background-color: var(--color-silver);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.street-number-box {
+  height: 53px;
+  width: 291.6px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-gray-200);
+  display: none;
+}
+.street-number {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: #111010;
+  text-align: center;
+  z-index: 2;
+}
+.frame-div,
+.street-number-box-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.street-number-box-parent {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: 11px var(--padding-xl) var(--padding-lg) 26.5px;
+  background-color: var(--color-gainsboro-100);
+  border-radius: var(--br-21xl);
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-div {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 9px;
+}
+.apply-now-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 171.1px;
+  height: 39px;
+  z-index: 1;
+}
+.apply {
+  position: absolute;
+  top: 8px;
+  left: 42.5px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: #decfcf;
+  text-align: center;
+  width: 85.2px;
+  z-index: 2;
+}
+.street-number-input {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 39px;
+  flex: 1;
+  position: relative;
+}
+.street-number-input-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 60.200000000000045px 0 60px;
+}
+.frame-container,
+.frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-container {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 17px;
+}
+.frame-wrapper {
+  height: 513px;
+  width: 291.6px;
+  align-items: flex-start;
+  margin-left: -24.5px;
+}
+.frame-group,
+.home-page-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-group {
+  width: 1739.1px;
+  align-items: flex-end;
+  text-align: center;
+  font-size: 36px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.home-page-inner {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.frame-child {
+  height: 232px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.automated-light-control,
+.citizen-access-to,
+.database-aiding-authorities,
+.faulty-light-detection {
+  margin: 0 !important;
+  position: absolute;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 200;
+  z-index: 3;
+}
+.database-aiding-authorities {
+  width: 1921px;
+  right: -8px;
+  bottom: 26px;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.automated-light-control,
+.citizen-access-to,
+.faulty-light-detection {
+  left: 10px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.faulty-light-detection {
+  width: 371px;
+  bottom: 72px;
+}
+.automated-light-control,
+.citizen-access-to {
+  width: 1037px;
+  top: 72px;
+}
+.citizen-access-to {
+  width: 952px;
+  top: 26px;
+  left: 9px;
+}
+.home-page,
+.vector-parent {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.vector-parent {
+  height: 232px;
+  margin: 0 !important;
+  position: absolute;
+  top: 777px;
+  left: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-inter);
+}
+.home-page {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-12xl) var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-jacques-francois);
+}
+@media screen and (max-width: 1200px) {
+  .gradient-background-parent {
+    gap: 90px 181px;
+  }
+  .government-info-parent {
+    gap: 194px 388px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .apply-for-automatic {
+    font-size: var(--font-size-10xl);
+  }
+  .govt-smart-street-light {
+    font-size: 26px;
+  }
+  .illuminate-together-brighteni {
+    font-size: 51px;
+  }
+  .government-info-parent {
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    display: none;
+  }
+  .frame-group {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .automated-light-control,
+  .citizen-access-to,
+  .database-aiding-authorities,
+  .faulty-light-detection {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent {
+    display: none;
+    gap: 35px 17px;
+  }
+  .home-parent {
+    width: 194px;
+  }
+  .gradient-background-parent {
+    gap: 45px 181px;
+  }
+  .government-info-parent {
+    gap: 97px 388px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .apply-for-automatic {
+    font-size: 22px;
+  }
+  .govt-smart-street-light {
+    font-size: 19px;
+  }
+  .illuminate-together-brighteni {
+    font-size: var(--font-size-19xl);
+  }
+  .gradient-background-parent {
+    gap: 23px 181px;
+  }
+  .connect-with-us {
+    font-size: var(--font-size-xl);
+  }
+  .government-info-parent {
+    gap: 48px 388px;
+  }
+  .apply,
+  .localityarea {
+    font-size: var(--font-size-base);
+  }
+  .street-number-input-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .automated-light-control,
+  .citizen-access-to,
+  .database-aiding-authorities,
+  .faulty-light-detection {
+    font-size: var(--font-size-2xl);
+  }
+}

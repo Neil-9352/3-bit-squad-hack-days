@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./LoginPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jacques Francois:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,400;0,600;0,700;1,200;1,500;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Ligconsolata";
+        src: url("./public/Ligconsolata-Bold.ttf");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-page">
+      <img class="login-page-child" alt="" src="./public/rectangle-1@2x.png" />
+
+      <div class="login-page-inner">
+        <form class="login-box-parent">
+          <div class="login-box"></div>
+          <div class="admin-login-wrapper">
+            <h1 class="admin-login1">Admin Login</h1>
+          </div>
+          <div class="frame-parent2">
+            <div class="username-parent">
+              <div class="username">Username</div>
+              <div class="username-box"></div>
+            </div>
+            <div class="password-parent">
+              <div class="password">Password</div>
+              <div class="h-o-m-e-f-r-a-m-e">
+                <div class="password-box"></div>
+                <div class="home-about-contact-link">
+                  <div class="forgot-password">Forgot Password?</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-wrapper2">
+            <button class="submit-box-parent">
+              <div class="submit-box"></div>
+              <div class="submit" id="submitText">
+                <a href="./AdminPage.html">Submit</a>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
+      <header class="frame-header">
+        <div class="home-container">
+          <div class="home2" id="hOMEText">HOME</div>
+        </div>
+        <div class="about-frame">
+          <div class="about2">ABOUT</div>
+        </div>
+        <div class="contact2">CONTACT</div>
+        <div class="go-back" id="gOBACKText">GO BACK</div>
+      </header>
+    </div>
+
+    <script>
+      var submitText = document.getElementById("submitText");
+      if (submitText) {
+        submitText.addEventListener("click", function (e) {
+          window.location.href = "./AdminPage.html";
+        });
+      }
+      
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./HomePage.html";
+        });
+      }
+      
+      var gOBACKText = document.getElementById("gOBACKText");
+      if (gOBACKText) {
+        gOBACKText.addEventListener("click", function (e) {
+          window.location.href = "./HomePage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

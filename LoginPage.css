@@ -1,0 +1,345 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+.login-page-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.login-box {
+  width: 573px;
+  height: 725px;
+  position: relative;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-gainsboro-300);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.admin-login1 {
+  margin: 0;
+  width: 282px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  font-weight: 400;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.admin-login-wrapper {
+  width: 461px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.username,
+.username-box {
+  position: relative;
+  z-index: 1;
+}
+.username {
+  width: 121px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 121px;
+}
+.username-box {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-300);
+  border: 5px solid var(--color-black);
+}
+.username-parent {
+  align-self: stretch;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.password,
+.password-box {
+  position: relative;
+  z-index: 1;
+}
+.password {
+  width: 116px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 116px;
+}
+.password-box {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-300);
+  border: 5px solid var(--color-black);
+}
+.forgot-password {
+  width: 212px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: #eb0000;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.home-about-contact-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.h-o-m-e-f-r-a-m-e {
+  align-self: stretch;
+  gap: 18px;
+}
+.frame-parent2,
+.h-o-m-e-f-r-a-m-e,
+.password-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.password-parent {
+  align-self: stretch;
+  gap: 13px;
+}
+.frame-parent2 {
+  width: 461px;
+  padding: 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+  gap: 40px;
+  max-width: 100%;
+}
+.submit-box {
+  height: 61px;
+  width: 230px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-coral);
+  display: none;
+}
+.submit {
+  position: relative;
+  font-size: 30px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 100px;
+  cursor: pointer;
+  z-index: 2;
+}
+.submit-box-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 65px var(--padding-xs);
+  background-color: var(--color-coral);
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.submit-box-parent:hover {
+  background-color: #cc5717;
+}
+.frame-wrapper2,
+.login-box-parent,
+.login-page-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-wrapper2 {
+  width: 461px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.login-box-parent,
+.login-page-inner {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.login-box-parent {
+  margin: 0;
+  flex: 1;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-gainsboro-300);
+  border: 5px solid var(--color-black);
+  padding: 69px 51px var(--padding-47xl);
+  gap: 59px;
+  z-index: 1;
+}
+.login-page-inner {
+  height: 871px;
+  padding: 146px 0 0;
+  min-width: 573px;
+}
+.home2 {
+  width: 83px;
+  position: relative;
+  display: inline-block;
+  min-width: 83px;
+  cursor: pointer;
+  z-index: 1;
+}
+.home-container {
+  width: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about2 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 1;
+}
+.about-frame {
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+}
+.contact2,
+.go-back {
+  position: relative;
+  z-index: 1;
+}
+.contact2 {
+  width: 135px;
+  display: inline-block;
+}
+.go-back {
+  flex: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.frame-header,
+.login-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-header {
+  width: 718px;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-jacques-francois);
+}
+.login-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-12xl) var(--padding-18xl) 178px 97px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1450px) {
+  .login-page-inner {
+    flex: 1;
+  }
+  .login-page {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .login-page-inner {
+    padding-top: 95px;
+    box-sizing: border-box;
+  }
+  .login-page {
+    padding-left: 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .admin-login1 {
+    font-size: var(--font-size-19xl);
+  }
+  .submit {
+    font-size: var(--font-size-5xl);
+  }
+  .login-box-parent {
+    gap: 29px 59px;
+    padding: var(--padding-26xl) var(--padding-6xl) 43px;
+    box-sizing: border-box;
+  }
+  .login-page-inner {
+    min-width: 100%;
+  }
+  .frame-header {
+    display: none;
+    gap: 35px 17px;
+  }
+  .login-page {
+    padding-left: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .admin-login1 {
+    font-size: var(--font-size-10xl);
+  }
+  .forgot-password,
+  .password,
+  .username {
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent2 {
+    gap: 20px 40px;
+  }
+  .submit {
+    font-size: 18px;
+  }
+  .login-page-inner {
+    padding-top: 62px;
+    box-sizing: border-box;
+  }
+}
